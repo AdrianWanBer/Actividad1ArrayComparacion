@@ -13,7 +13,7 @@
                 {
                     if(Vocales1[columna] != Vocales2[columna])
                     {
-                        Console.WriteLine("El errar esta en Vocales2 en la posicion fila: " + fila + " / columna: " + columna);
+                        Console.WriteLine("El error esta en Vocales2 en la posicion fila: " + fila + " / columna: " + columna);
                     }
 
                 }
