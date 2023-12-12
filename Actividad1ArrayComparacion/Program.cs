@@ -7,12 +7,17 @@
             char[] Vocales1 = {'a', 'e', 'i', 'o','u' };
             char[] Vocales2 = { 'a', 'e', 'i', 'o', 'x' };
 
-            for(int recorrido = 0; recorrido < Vocales1.Length; recorrido++)
+            for(int fila = 0; fila < 1; fila++)
             {
-               if( Vocales1[recorrido] != Vocales2[recorrido])
+                for(int columna = 0; columna < Vocales1.Length; columna++)
                 {
-                    Console.WriteLine("En la posicion: " + recorrido + " del segundo array esta mal");
+                    if(Vocales1[columna] != Vocales2[columna])
+                    {
+                        Console.WriteLine("El errar esta en Vocales2 en la posicion fila: " + fila + " / columna: " + columna);
+                    }
+
                 }
+               
             }
         }
     }
